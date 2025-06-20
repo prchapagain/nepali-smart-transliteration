@@ -1,0 +1,5 @@
+{
+  "name": "Nepali Smart Transliteration",
+  "description": "A web application for transliterating Romanized Nepali to Devanagari Unicode with smart suggestions and word prediction, powered by the Gemini API. Type Roman Nepali, get Devanagari output with real-time suggestions.",
+  "requestFramePermissions": []
+}
