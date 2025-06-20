@@ -3,20 +3,25 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://prchapagain.github.io/nepali-smart-transliteration",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@google/genai": "^1.5.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "@google/genai": "^1.5.1"
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "gh-pages": "^6.3.0",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
   },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  "packageManager": "yarn@1.22.22"
 }
