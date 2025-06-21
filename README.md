@@ -1,14 +1,46 @@
-# Run and deploy your AI Studio app
+# 🇳🇵 Nepali Smart Transliteration
 
-This contains everything you need to run your app locally.
+A web-based tool that converts Roman Nepali text into accurate Nepali (Devanagari) Unicode in real time—featuring smart suggestions and a smooth interface optimized for both desktop and mobile.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🌐 Live Demo
+
+🔗 [Try it now](https://prchapagain.com.np/nepali-smart-transliteration/)
+
+---
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+## ✨ Features
+
+- **Real-time transliteration:** Instant Roman→Devanagari conversion as you type  
+- **Context-aware suggestions:** Handles common Romanization patterns  
+- **Mobile-responsive design:** Works seamlessly on all devices  
+- **Easy copy/paste support:** Copy the output with one click
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js installed (for local development)  
+- Yarn or npm (whichever you prefer)
+
+### Installation
+
+```bash
+# Clone the repo
+git clone https://github.com/prchapagain/nepali-smart-transliteration.git
+cd nepali-smart-transliteration
+
+# Install dependencies
+yarn install       # or `npm install`
+
+# Run locally
+yarn dev           # or `npm run dev`
+
+# Create production build
+yarn build         # or `npm run build`
+
